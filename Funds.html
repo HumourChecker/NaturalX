@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NaturalX</title>
+        <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+        <title>NaturalX</title>
+        <style>
+            body{
+            background-image: url(unnamed.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            font-family: Patua One;
+            
+            }
+            
+            .navbar-main{
+            width: 100%;
+            margin: 0 auto;
+            }
+            
+            .navinside-main{
+
+            color: rgb(255, 255, 255);
+            font-family: Patua One;
+            float: right;
+            margin-right: 70px;
+            }
+            
+            header::after{
+            content: '';
+            display: table;
+            clear: both;
+            }
+            
+            header{
+            background: #55d6aa;
+            }
+            
+            .logonav{
+            float: left;
+            }
+            
+            .navinside-main ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            }
+            
+            .navinside-main li{
+            display: inline-block;
+            margin-left: 70px;
+            padding-top: 30px;
+            
+            position: relative;
+            }
+            
+            .navinside-main a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            }
+            
+            .navinside-main a:hover{
+            color: rgb(255, 255, 255);
+            
+            }
+            
+            .navinside-main a::before{
+            content: '';
+            display: block;
+            height: 5px;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            
+            position: absolute;
+            top: 100%;
+            width: 0%;
+            
+            transition: all ease-in-out 150ms;
+            }
+            
+            .navinside-main a:hover::before{
+            width: 100%;
+            }
+            #funds{
+                text-align: center;
+                padding-top: 150px;
+            }
+            p{
+                font-size: 25px;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <img class="logonav" width="250px" height="90px" src="unnamed (3).png" alt="logo">
+            <div class="navbar-main">
+            <nav class="navinside-main">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Funds.html">Funds</a></li>
+            <li><a href="#">Map</a></li>
+            <li><a href="#">Contact Us</a></li>
+            </ul>
+            </nav>
+            </div>
+        </header>
+        <div id="funds1">
+            <h1>American Red Cross</h1>
+            <p>One of the most well-known disaster relief organizations in this country, the<br/> American Red Cross works to ensure people have clean water, safe shelter,<br/> and hot meals when emergency strikes. ARC responds to about 60,000<br/> disasters every single year, including hurricanes, wildfires, and floods.
+            </p> 
+        </div>
+        <div id="funds2">
+            <h1>All Hands and Hearts Smart Response</h1>
+            <p>Created to effectively and efficiently address the immediate and also long-<br/>term needs of those impacted by natural disasters, this volunteer-powered<br/> relief organization is focused on helping families recover quickly after such<br/> crises.
+            </p> 
+        </div>
+        <div id="funds3">
+            <h1>MAP International</h1>
+            <p>MAP International's efforts are primarly focused on bringing critical medicine<br/> and health supplies to those in need. During disasters, MAP International<br/> steps in to provide immediate humanitarian support to those who are suddenly <br/>homeless and lacking access to the most basic services.
+            </p> 
+        </div>
+    </body>
+</html>

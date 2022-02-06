@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Kumbh+Sans:wght@300&family=Oxygen:wght@400;700&family=Red+Hat+Display:wght@300;400;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+        <style>
+        body{
+            background-image: url(unnamed.png);
+            background-size: 1366px 768px;
+            background-repeat: y-repeat;
+            
+            }
+            
+            .navbar-main{
+            width: 100%;
+            margin: 0 auto;
+            }
+            
+            .navinside-main{
+            color: rgb(255, 255, 255);
+            font-family: Patua One;
+            float: right;
+            margin-right: 70px;
+            }
+            
+            header::after{
+            content: '';
+            display: table;
+            clear: both;
+            }
+            
+            header{
+            background: #55d6aa;
+            }
+            
+            .logonav{
+            float: left;
+            }
+            
+            .navinside-main ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            }
+            
+            .navinside-main li{
+            display: inline-block;
+            margin-left: 70px;
+            padding-top: 30px;
+            
+            position: relative;
+            }
+            
+            .navinside-main a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            }
+            
+            .navinside-main a:hover{
+            color: rgb(255, 255, 255);
+            
+            }
+            
+            .navinside-main a::before{
+            content: '';
+            display: block;
+            height: 5px;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            
+            position: absolute;
+            top: 100%;
+            width: 0%;
+            
+            transition: all ease-in-out 150ms;
+            }
+            
+            .navinside-main a:hover::before{
+            width: 100%;
+            }
+            #overveiw{
+                margin-left: 630px;
+                margin-top: -150px;
+            }
+            button{
+                color: white;
+                background: none;
+                border: 2px solid #55d6aa;
+                font-family: Patua One;
+                padding: 12px 20px;
+                cursor: pointer;
+                transition: ease-out 0.4s;
+            }
+            button:hover{
+                box-shadow: inset 300px 0 0 0 #55d6aa;;
+            }
+            #OVtext{
+                margin-top: 440px;
+                color: white;
+                font-family: Patua One;
+                text-align: center;
+                font-size: 25px;
+            }
+            #space{
+                margin-top: 250px;
+            }
+            #logo{
+                display: flex;
+                justify-content: center;
+            }
+
+            </style>
+    </head>
+    <body>
+        <header>
+        <img class="logonav" width="250px" height="90px" src="unnamed (3).png" alt="logo">
+        <div class="navbar-main">
+        <nav class="navinside-main">
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Funds.html">Funds</a></li>
+        <li><a href="#">Map</a></li>
+        <li><a href="#">Contact Us</a></li>
+        </ul>
+        </nav>
+        </div>
+        </header>
+        <div id="logo">
+        <img src="unnamed (2).png">
+        </div>
+        <a href="#OVtext"><button id="overveiw">Overveiw</button></a>
+        <div id="OVtext">
+            <p>We took the initiative to make a website exploring this topic because we feel that natural disasters are often left unattended and not majorly recognized for their results and the pain it causes. We, the students from 8H, believe that the people affected by natural disasters require more help, and more awareness on the topic should be spread around the world.
+                We came to this conclusion when we realized that major parts of the world have recently seen destruction and chaos due to disasters such as earthquakes, tsunamis, and cyclones. People have been put out of their homes and their chance at life.</p>
+            <a href="About.html"><button>About</button></a>
+            <a href="Funds.html"><button>Funds</button></a>
+            <a href="Map.html"><button>Map</button></a>
+        </div>
+        <div id="space">
+            
+        </div>
+        </body>
+</html>
