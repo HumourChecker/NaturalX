@@ -1,0 +1,32 @@
+body {
+    background: url(Landscape.png);
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    background-size: cover;
+    color: white
+}
+
+.pic{
+    height:550px;
+    width:fit-content;
+}
+
+.mapNA{
+    display: flex;
+    float:left;
+    width:75%;
+}
+
+.head {
+    display: flex;
+    width: 24%;
+}
+
+.para {
+    display: flex;
+    width:24%;
+    font-size: large;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
